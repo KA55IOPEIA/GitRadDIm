@@ -15,7 +15,7 @@ namespace Lab
             switch (a)
             {
                 case 1:
-                    Console.WriteLine(rnd.Next(1, 99) + rnd.Next(1, 99));
+                    Console.WriteLine(rnd.Next(1, 99) + rnd.Next(1, 99)); //+
                     break;
                 case 2:
                     Console.WriteLine(rnd.Next(1, 99) - rnd.Next(1, 99));
